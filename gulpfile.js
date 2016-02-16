@@ -35,6 +35,7 @@ var path = {
         sprite:  'www/assets/images/sprite/',
         spriteScss: 'src/style/' 
     },
+<<<<<<< HEAD
     prodaction: { //template
         html:    'www/',
         js:      '../catalog/view/theme/' + name + '/assets/js/',
@@ -42,6 +43,15 @@ var path = {
         images:  '../catalog/view/theme/' + name + '/assets/images/',
         fonts:   '../catalog/view/theme/' + name + '/assets/fonts/',
         fontBs:  '../catalog/view/theme/' + name + '/assets/fonts/bootstrap/',
+=======
+    prodaction: { //Тут мы укажем куда складывать готовые после сборки файлы
+        html:    'www/',
+        js:      '../catalog/view/theme/' + name + '/assets/js/',
+        css:     '../catalog/view/theme/' + name + '/assets/css/',
+        images:  '../catalog/view/theme/' + name + '/assets/css/images/',
+        fonts:   '../catalog/view/theme/' + name + '/assets/fonts/',
+        fontBs:  '../catalog/view/theme/' + name + '/assets/fonts/',
+>>>>>>> origin/master
         sprite:  '../catalog/view/theme/' + name + '/assets/images/sprite/',
         spriteScss: 'src/style/' 
     },
@@ -65,7 +75,7 @@ var path = {
                  'bower_components/pushy/js/pushy.js',
                  //'bower_components/jquery-ui/jquery-ui.js', 
                  'bower_components/jquery.transit/jquery.transit.js', 
-        
+
                  'src/js/hoverable_and_touchable.js',
                  'src/js/_canvastriangles.js',
                  'src/js/_visual.js',
