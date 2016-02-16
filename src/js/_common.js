@@ -1,8 +1,7 @@
 $(document).ready(function() {
 	console.log('ready document');
 	visual.init();
-	// account.init();
-	// help.init();
+	social.init();
 });
 $(window).on('resize', function(){
 	visual.resize();

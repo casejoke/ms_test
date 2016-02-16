@@ -1,0 +1,13 @@
+.btn-border-white {
+  @include button-variant(#FFFFFF,transparent, #FFFFFF);
+  color: #FFFFFF!important;
+  border-width: 2px;
+  cursor: pointer;
+  padding: 12px 70px 11px 74px;
+    font-size: 23px;
+    display: inline-block;
+    margin-top: 13px;
+  &.disabled{
+    @include button-variant(darken(#FFFFFF, 10%), #FFFFFF, #FFFFFF);
+  }
+}

@@ -1,8 +1,5 @@
 @import '_custom_var';
-  
 
-
-$icon-font-path: '../fonts/bootstrap/' !default;
 
 @import "bower_components/components-font-awesome/scss/font-awesome";
 
@@ -22,7 +19,6 @@ $icon-font-path: '../fonts/bootstrap/' !default;
 // Reset and dependencies
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/normalize";
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/print";
-@import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/glyphicons";
 
 // Core CSS
 @import "bower_components/bootstrap-sass/assets/stylesheets/bootstrap/scaffolding";
@@ -69,13 +65,15 @@ $icon-font-path: '../fonts/bootstrap/' !default;
 @import "sprite";
 
 @import "partials/open-sans";
-
+@import "partials/_general";
+@import "partials/_loader";
 @import "partials/_module";
-
+@import "partials/_buttons";
+@import "partials/_wizard";
+@import "partials/_social";
 @import "partials/module-custom";
-
 @import "partials/test";
 
 @import "partials/test2";
 
-@import "partials/test3";
+//@import "partials/test3";
